@@ -177,6 +177,7 @@ a {
 
 .accesories_img {
   filter: brightness(30%);
+  width: 100%;
 }
 
 .accesories:hover .accesories_img {
@@ -275,6 +276,8 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: #F26376;
+  display: flex;
+  justify-content: center;
 }
 
 .button_products:hover {
