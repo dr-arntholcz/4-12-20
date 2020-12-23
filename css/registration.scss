@@ -1,0 +1,92 @@
+.registration_content {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    .reg_con_block_left {
+        &_form {
+            max-width: 360px;
+            display: flex;
+            flex-direction: column;
+            &_box {
+                display: flex;
+                align-items: center;
+                padding: 30px 0;
+                .reg_form_radio_lbl {
+                    margin: 0 20px 0 10px;
+                    font-weight: 300;
+                    font-size: 11px;
+                    line-height: 13px;
+                    color: #000000;
+                }
+            }
+            &_inp {
+                border: 1px solid #A4A4A4;
+                height: 45px;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #B1B1B1;
+                margin-top: 20px;
+                padding: 0 22px;
+            }
+            &_p {
+                margin: 15px 0 40px;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #B1B1B1;
+            }
+            .registration_left_form_button {
+                width: 167px;
+                height: 50px;
+                background: #F16D7F;
+                display: flex;
+                justify-content: space-between;
+                padding: 16px 20px 16px 30px;
+                border: none;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+            }
+            .registration_left_form_button:hover {
+                background: #F16D7F - #222;
+            }
+            .registration_left_form_button::after {
+                content: url("../img/right.svg");
+                width: 17px;
+                height: 10px;
+            }
+        }
+    }
+    .reg_con_block_right {
+        max-width: 650px;
+        &_wrapper {
+            text-align: left;
+            &_h3 {
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+            }
+            &_p {
+                margin: 22px 0;
+            }
+            &_p,
+            &_ul {
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+            }
+            &_ul {
+                list-style-image: url("../img/marker_type.svg");
+                line-height: 16px;
+                &_li {
+                    margin-bottom: 16px;
+                    margin-left: 35px;
+                    padding-left: 22px;
+                }
+            }
+        }
+    }
+}

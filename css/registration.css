@@ -1,0 +1,104 @@
+.registration_content {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration_content .reg_con_block_left_form {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration_content .reg_con_block_left_form_box {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.registration_content .reg_con_block_left_form_box .reg_form_radio_lbl {
+  margin: 0 20px 0 10px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.registration_content .reg_con_block_left_form_inp {
+  border: 1px solid #A4A4A4;
+  height: 45px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-top: 20px;
+  padding: 0 22px;
+}
+
+.registration_content .reg_con_block_left_form_p {
+  margin: 15px 0 40px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.registration_content .reg_con_block_left_form .registration_left_form_button {
+  width: 167px;
+  height: 50px;
+  background: #F16D7F;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px 16px 30px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.registration_content .reg_con_block_left_form .registration_left_form_button:hover {
+  background: #cf4b5d;
+}
+
+.registration_content .reg_con_block_left_form .registration_left_form_button::after {
+  content: url("../img/right.svg");
+  width: 17px;
+  height: 10px;
+}
+
+.registration_content .reg_con_block_right {
+  max-width: 650px;
+}
+
+.registration_content .reg_con_block_right_wrapper {
+  text-align: left;
+}
+
+.registration_content .reg_con_block_right_wrapper_h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.registration_content .reg_con_block_right_wrapper_p {
+  margin: 22px 0;
+}
+
+.registration_content .reg_con_block_right_wrapper_p, .registration_content .reg_con_block_right_wrapper_ul {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.registration_content .reg_con_block_right_wrapper_ul {
+  list-style-image: url("../img/marker_type.svg");
+  line-height: 16px;
+}
+
+.registration_content .reg_con_block_right_wrapper_ul_li {
+  margin-bottom: 16px;
+  margin-left: 35px;
+  padding-left: 22px;
+}

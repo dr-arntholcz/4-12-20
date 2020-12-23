@@ -1,0 +1,15 @@
+@mixin button_param( $b_class_t, $bgr_color, $text_color, $hover_bgr_color, $hover_text_color, $b_width, $b_height, $b_border) {
+     :hover {
+        background-color: $hover_bgr_color;
+    }
+    ;
+    background-color: $bgr_color;
+    $b_class_t: $text_color;
+    //  :hover $b_class_t {
+    //     color: $hover_text_color;
+    // }
+    ;
+    width: $b_width;
+    height: $b_height;
+    border: $b_border;
+}
