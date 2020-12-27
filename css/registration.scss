@@ -7,6 +7,11 @@
             max-width: 360px;
             display: flex;
             flex-direction: column;
+            &_h3 {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 19px;
+            }
             &_box {
                 display: flex;
                 align-items: center;
@@ -87,6 +92,48 @@
                     padding-left: 22px;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .registration_content {
+        margin-top: 40px;
+        .reg_con_block_left {
+            &_form {
+                &_h3 {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+        }
+        .reg_con_block_right {
+            max-width: 354px !important;
+            &_wrapper {
+                &_h3 {
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+                &_p,
+                &_ul_li {
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+    .subscribe_product {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 450px) {
+    .registration_content {
+        flex-direction: column;
+        margin: 40px 10px 0;
+        .reg_con_block_right {
+            margin-top: 40px;
         }
     }
 }

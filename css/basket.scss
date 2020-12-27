@@ -176,3 +176,98 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .basket_box {
+        margin-top: 60px;
+        flex-direction: column;
+        .basket_box_block_left_ul_basket_cart {
+            max-width: 734px;
+            &_buttons {
+                justify-content: space-around;
+            }
+            .basket_cart_buttons {
+                margin-top: 62px !important;
+            }
+        }
+        .basket_box_block_right {
+            width: auto;
+            flex-direction: unset;
+            justify-content: space-between;
+            &_form {
+                margin: 64px 0 0 0;
+                padding-right: 2px;
+                width: 360px;
+                .basket_input {
+                    width: 300px;
+                }
+            }
+            .summary {
+                margin: 80px 0 0 16px;
+                width: 360px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .basket_box {
+        margin-top: 40px;
+        .basket_box_block_left_ul_basket_cart {
+            margin: 0 7px;
+        }
+        .basket_box_block_left_ul_basket_cart:nth-child(2) {
+            margin-top: 32px;
+        }
+        .basket_box_block_left_ul_basket_cart_img {
+            height: 188px;
+        }
+        .basket_box_block_left_ul_basket_cart_descrip {
+            margin: 17px 0 0 17px;
+            &_h3 {
+                font-size: 16px;
+                line-height: 19px;
+            }
+            &_ul {
+                font-size: 14px;
+                line-height: 17px;
+                margin-top: 26px;
+            }
+            .basket_input_quantity {
+                font-size: 10px;
+                line-height: 12px;
+                height: 15px;
+                width: 24px;
+            }
+        }
+        .basket_box_block_left_ul_basket_cart_cross {
+            margin: 17px 17px 0 0;
+        }
+        .cart_cross {
+            width: 10px;
+            height: 10px;
+        }
+        .basket_box_block_left_ul_basket_cart_buttons_button_basket {
+            width: 174px;
+            height: 32px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .basket_cart_buttons {
+            margin-top: 30px;
+        }
+        .basket_box_block_right {
+            flex-direction: column;
+            &_form {
+                margin: 50px 7px 0;
+                &_button {
+                    font-weight: 400;
+                }
+            }
+            .summary {
+                margin: 50px 7px 0;
+            }
+        }
+    }
+}
