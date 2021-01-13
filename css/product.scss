@@ -33,7 +33,6 @@
 }
 
 .product_exten_lbl_cltn {
-    max-width: 555px;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
@@ -96,4 +95,47 @@
 
 .subscribe_product {
     margin-top: 130px;
+}
+
+@media (max-width: 1024px) {
+    .product_exten {
+        &_prewiev {
+            &_img {
+                height: 565px;
+            }
+        }
+        &_decription {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .product_exten {
+        &_prewiev {
+            &_img {
+                height: 454px;
+                margin: 0px;
+            }
+        }
+        &_decription {
+            margin: 0px;
+            padding: 65px 30px 0;
+            .product_extend_text {
+                margin: 32px 0 0;
+                line-height: 20px;
+            }
+            .product_extend_price {
+                margin: 32px 0;
+                line-height: 32px;
+            }
+            .sort_items {
+                font-size: 10px;
+                line-height: 12px;
+            }
+        }
+    }
+    .subscribe_product {
+        margin-top: 64px;
+    }
 }
